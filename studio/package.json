@@ -8,10 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-<<<<<<< HEAD
-=======
     "deploy": "sanity deploy",
->>>>>>> ck-2-set-up-project-files
     "test": "sanity check"
   },
   "keywords": [

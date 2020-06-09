@@ -1,0 +1,17 @@
+{
+  "name": "chumskitchen",
+  "version": "0.1.0",
+  "description": "Community webapp for sharing recipes amongst friends.",
+  "main": "package.json",
+  "repository": "git@github.com:crs1138/chums-kitchen-com.git",
+  "author": "Jan Pozivil <crs1138@me.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@sanity/cli": "^1.149.16",
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "start": "lerna run start"
+  }
+}

@@ -12,6 +12,16 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "start": "lerna run start"
+    "start": "lerna run start",
+    "start:web": "lerna run --scope ck-web start",
+    "start:studio": "lerna run --scope ck-studio start",
+    "build": "lerna run build --stream",
+    "build:web": "lerna run --scope ck-web build",
+    "build:studio": "lerna run --scope ck-studio build",
+    "deploy": "lerna run deploy --stream",
+    "deploy:web": "lerna run deploy --scope ck-web",
+    "deploy:studio": "lerna run deploy  --scope ck-studio",
+    "test:web": "lerna run test --scope ck-web",
+    "test:studio": "lerna run test --scope ck-studio"
   }
 }
